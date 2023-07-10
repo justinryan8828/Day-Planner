@@ -1,39 +1,3 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
-// $(function () {
-//   $(".saveBtn").click(function () {
-//     let timeBlockId = $(this).parent().attr("id");
-
-//     let textAreaValue = $(this).parent().find("textarea").val();
-
-//     // Need to save text area to local
-//     localStorage.setItem(timeBlockId, textAreaValue);
-//   });
-
-//   $(".time-block").each(function () {
-//     let timeBlock = $(this).attr("id").split("-")[1];
-
-//     let hour = dayjs().hour();
-
-//     if (hour > timeBlock) {
-//       // this just calls to the last called id/class
-//       // add class past,present,future
-//       $(this).addclass("past");
-//     } else if (hour === timeBlock) {
-//       $(this).addclass("present");
-//     } else {
-//       $(this).addclass("future");
-//     }
-//   });
-
-//   $(".description").each(function () {
-//     let parentId = $(this).parent().attr("id");
-
-//     let description = localStorage.getItem(parentId);
-//     $(this).val(description);
-//   });
-
 //
 //
 
