@@ -15,4 +15,8 @@ Local Storage: Your planner data is automatically saved to your browser's local 
 
 ## Display
 
+![Screenshot of webpage](./images/_Users_justinmoore_Documents_UCF_Homework_Day-Planner_index.html.png)
+
 ## Usage
+
+[Day-planner Website](https://justinryan8828.github.io/Day-Planner/)
